@@ -9,10 +9,10 @@ export default function AboutUs() {
     <div className="min-h-screen bg-transparent text-gray-900">
       <header className="py-6">
         <div className="container mx-auto text-center">
-          <Typography variant="h1" className="text-white text-4xl font-bold">
+          <Typography variant="h1" className="text-light-blue-900 text-4xl font-bold">
             About Us
           </Typography>
-          <Typography variant="h6" className="text-light-blue-100 mt-2">
+          <Typography variant="h6" className="text-light-blue-700 mt-2">
             Discover more about our blog and photography platform
           </Typography>
         </div>
@@ -25,7 +25,7 @@ export default function AboutUs() {
               <Typography variant="h2" className="text-3xl font-semibold mb-4 text-light-blue-900">
                 Our Mission
               </Typography>
-              <Typography variant="body1" className="text-lg text-white">
+              <Typography variant="body1" className="text-lg text-gray-800">
                 At InspirGraphy, our mission is to provide a platform where
                 creative minds can share their stories, photographs, and ideas
                 with the world. Whether you're a blogger or a photographer, we
@@ -43,11 +43,11 @@ export default function AboutUs() {
           </div>
         </section>
 
-        <section className="bg-white p-6 rounded-lg shadow-lg mb-12 border border-light-blue-200">
-          <Typography variant="h2" className="text-2xl font-semibold mb-4">
+        <section className="bg-white p-6 rounded-lg shadow-lg mb-12 border-spacing-2 border-light-blue-200">
+          <Typography variant="h2" className="text-2xl font-semibold mb-4 text-light-blue-900">
             Our Story
           </Typography>
-          <Typography variant="body1" className="text-lg mb-4">
+          <Typography variant="body1" className="text-lg mb-4 text-light-blue-600">
             It all started with a simple idea: to create a space where people
             could showcase their talents and connect with others. Over the years,
             we have grown into a vibrant community of bloggers and photographers

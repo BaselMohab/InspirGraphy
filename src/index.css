@@ -26,7 +26,6 @@ background-size: cover;
 background-position: 100%;
 }
 .home-grid{
-    width: 80%;
     box-shadow:   18px 18px 93px #bebebe,
     -18px -18px 93px #ffffff;
 }
@@ -56,7 +55,7 @@ background-position: 100%;
     bottom: 50px !important;
     right: 50px !important;
     height: 3rem !important;
-    width: 9rem !important;
+    width: 9rem;
     border: none !important;
     z-index: 1000 !important;
     background-color: #007bff !important; 
@@ -66,6 +65,25 @@ background-position: 100%;
     align-items: center !important;
     justify-content: center !important;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important; 
+}
+
+
+@media (max-width: 640px) {
+    .post-icon {
+        height: 2.5rem !important;
+        width: 7rem;
+        right: 30px !important;
+        bottom: 30px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .post-icon {
+        height: 2.5rem;
+        width: 7rem;
+        right: 30px !important;
+        bottom: 30px !important;
+    }
 }
 
 

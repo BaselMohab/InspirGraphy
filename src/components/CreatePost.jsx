@@ -117,7 +117,7 @@ export default function PostManager() {
                 <Button
                     onClick={handleAddPostClick}
                     color="blue"
-                    className="post-icon text-white"
+                    className="post-icon  text-white"
                 >
                     Add Post
                 </Button>
